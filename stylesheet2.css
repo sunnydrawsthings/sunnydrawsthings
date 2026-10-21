@@ -1,0 +1,67 @@
+body {background-image: url("picnic.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  font-family: 'Courier New';
+
+
+.title {
+border-style: double;
+background-image: url("paper.jpeg");
+background-repeat: no-repeat;
+background-attachment: fixed; 
+background-size: 100% 100%;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: flex-start;
+top: 10px; left: 350px;
+width: 600px; height: 70px;
+flex-direction: column;
+ }
+
+
+.talk {
+border-style: double;
+background-image: url("paper.jpeg");
+background-repeat: no-repeat;
+background-attachment: fixed; 
+background-size: 100% 100%;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: flex-start;
+top: 70px; left: 350px;
+width: 600px; height: 430px;
+flex-direction: column;
+ }
+
+.blue {color:#9A99FF;}
+
+.green {color:#5BFF0D;}
+
+.blinkies {
+position: absolute;
+right: 10px; top: 50px;
+display: flex;
+flex-direction: column;
+height: 150px; width: 300px;
+}
+
+.midnight {
+position: absolute;
+height: 200px; width: 200px;
+bottom: 10px; right: 65px;
+border-radius: 15px;
+border: 6px solid white;
+}
+
+.sona {
+height: 590px; width: 590px;
+position: absolute;
+right: 800px; top: 10px;
+}
+
+}
