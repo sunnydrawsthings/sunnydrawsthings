@@ -1,0 +1,65 @@
+body {background-image: url("windows.jpeg");
+background-repeat: no-repeat;
+background-attachment: fixed; 
+background-size: 100% 100%;
+font-family: 'Courier New';
+
+img {
+width: 200px; height: 200px;
+}
+
+.snailmail {
+border-style: double;
+background: white;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: flex-start;
+top: 90px; left: 10px;
+width: 400px; height: auto;
+flex-direction: column;
+ }
+
+
+.book {
+border-style: double;
+background: white;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: flex-start;
+top: 90px; left: 500px;
+width: 400px; height: auto;
+flex-direction: column;
+ }
+
+.ocs {
+border-style: double;
+background: white;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: flex-start;
+top: 90px; right: 10px;
+width: 400px; height: auto;
+flex-direction: column;
+ }
+
+.calendar {
+border-style: double;
+background: white;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: flex-start;
+top: 500px; left: 10px;
+width: 400px; height: auto;
+flex-direction: column;
+ }
+
+
+}
